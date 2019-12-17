@@ -1,13 +1,24 @@
 ---
 title: Homepage
-description: 'Write less code, solve more problems'
+description: ''
 twitter_card_img: ''
 ---
 
-h1 = data.settings.site.title
-em = data.settings.site.description
-markdown:
-  Advanced Middleman template with `Sass`, `Slim` & `Yarn`
+h1 Chickens
 
-  🚀
-= link_to 'Read the documentation', data.settings.site.url
+
+h2 New chicken
+form name="chicken" method="POST" data-netlify="true" action="/"
+  section
+    label for="name" Name
+    br
+    input type="text" placeholder="Chiky"
+
+  section
+    label for="color" Color
+    br
+    input type="text" placeholder="blue"
+
+  br
+  section
+    input type="submit" value="Add chicken"
