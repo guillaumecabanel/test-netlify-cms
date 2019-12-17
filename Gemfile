@@ -21,3 +21,5 @@ gem 'oga',                     '~> 2.8'
 
 # Testing Deploy
 gem 'rake'
+
+gem 'middleman-dato'

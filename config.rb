@@ -67,3 +67,8 @@ activate :deploy do |deploy|
 
   deploy.commit_message = commit_message
 end
+
+
+activate :dato,
+  token: 'be55cc55c429b7b49b32a972edea12',
+  base_url: 'https://quirky-neumann-c52794.netlify.com'
