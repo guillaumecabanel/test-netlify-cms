@@ -69,6 +69,8 @@ activate :deploy do |deploy|
 end
 
 
-activate :dato,
-  token: 'be55cc55c429b7b49b32a972edea12',
-  base_url: 'https://quirky-neumann-c52794.netlify.com'
+activate :dato, live_reload: true
+
+configure :development do
+  activate :livereload
+end

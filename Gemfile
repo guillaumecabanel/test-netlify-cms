@@ -8,6 +8,7 @@ gem 'middleman-favicon-maker'
 gem 'middleman-minify-html',   '~> 3.4.1'
 gem 'middleman-robots'
 gem 'middleman-sitemap-ping'
+gem 'middleman-livereload'
 
 # -- NEEDS FIX -- not yet compatible with middleman 4.x
 # gem 'middleman-deploy',         '~> 1.0.0' # FIXME: wait for new release
